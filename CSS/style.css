@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: white;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.logo {
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+}
+
+.pcard {
+    width: 300px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+}
+
+.b1 {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.b2 {
+    position: absolute;
+    bottom: 5px;
+    left: 120px;
+}
+
+.imgcard {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-radius: 16px 16px 0px 0px;
+}
+
+a {
+    cursor: pointer;
+}
+
+i:hover {
+    font-size: 20px;
+    transition: all ease-in 1ms;
+}
+
+.deletebtn {
+    border-radius: 16px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border: 1px solid black;
+    padding: 9px 18px;
+    font-weight: 800;
+    transition: all ease 2s;
+
+}
+
+.deletebtn:hover {
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgb(26, 26, 26);
+
+}
+
+.table {
+    border: 2px solid black;
+
+}
+
+.table thead tr th {
+    background: rgba(238, 235, 235, 0.42);
+    border: 2px solid black;
+
+}
+
+.table tbody tr td {
+    background: rgba(238, 235, 235, 0.42);
+    border: 2px solid black;
+
+}
+
+.total {
+
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgb(14, 14, 14);
+}
+
+.cart {
+    font-size: 28px;
+    color: green;
+    transition: all 1ms;
+}
+
+.cart:hover {
+    font-size: 35px;
+
+}
+
+.dc {
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgb(92, 91, 91);
+}
