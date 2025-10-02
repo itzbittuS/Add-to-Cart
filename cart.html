@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Cart</title>
+    <link rel="icon" href="./pngtree-vector-add-to-cart-vector-icon-png-image_313447.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid   ">
+                <!-- Logo -->
+                <a class="navbar-brand logo" href="./index.html">
+                    Produxt
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Search -->
+                    <form class="d-flex mx-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search Products..."
+                            aria-label="Search" />
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+
+                    <!-- Cart Button -->
+                    <a href="./index.html" class=" mx-3 my-2 position-relative">
+                        <i class="fa-solid fa-cart-shopping cart"></i>
+                        <span
+                            class="position-absolute top-0 start-100  translate-middle badge rounded-pill bg-info text-dark fs-6">
+                            0
+                            <span class="visually-hidden">cart items</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-3 col-sm-12">
+        <div class="row" id="cards">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Product Image</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Product qty</th>
+                        <th scope="col">product Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+            <div class="total bg-light col-sm-12"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Java-Script/cart.js"></script>
+</body>
+
+</html>
